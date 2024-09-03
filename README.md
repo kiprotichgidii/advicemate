@@ -1,29 +1,7 @@
-<img src="https://github.com/catherineisonline/advice-generator-app-frontendmentor/blob/main/images/project-preview.png?raw=true"></img>
+<img src="https://github.com/giddy624/AdviceMate/main/images/project-preview.png?raw=true"></img>
 
 
-<h1 align="center">Advice generator app</h1>
-
-<div align="center">
-  <h3>
-    <a href="https://catherineisonline.github.io/advice-generator-app-frontendmentor/" color="white">
-      Live
-    </a>
-    <span> | </span>
-    <a href="https://www.frontendmentor.io/solutions/advice-generator-app-wYjTeAeAf#comment-621bb509145c6a78f0999ec4">
-      Solution
-    </a>
-   <span> | </span>
-    <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">
-      Challenge
-    </a>
-  </h3>
-</div>
-<div align="center">
-   Solution for a challenge from  <a href="https://www.frontendmentor.io/" target="_blank">frontendmentor.io</a>.
-</div>
-<br>
-<br>
-<br>
+<h1 align="center">Advice Generator Web App</h1>
 
 ## About The Project
 
