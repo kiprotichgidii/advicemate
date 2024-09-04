@@ -28,7 +28,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 - Advice Slip API - random quote generator
 
 ## What I learned
-Another fun project to practice API with JavaScript. After several complex projects, this one seemed much easier than before. The only thing which isn't as perfect as I would want to is that sometimes after requesting new quote, it generates the same so the visitor wouldn't notice it and think it didn't work. Probablt there are ways to avoid it but I decided not to spend much on this right now. 
+A really fun project to practice API with JavaScript. The only issue is that sometimes after requesting new quote, it generates the same so the visitor wouldn't notice it and think it didn't work. Probablt there are ways to avoid it but I decided not to spend much on this right now. 
 
 P.S. 
 
@@ -40,9 +40,3 @@ Seems like the issue was cache, not repetitive quotes which is fixed now!
 1. <a href="https://www.figma.com/">Figma</a> - Paste your design image to check the size of containers, width, etc.
 2. <a href="https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi">Perfect Pixel</a> - Awesome Chrome extension that helps you to match the pixels of the provided design.
 3. <a href="https://api.adviceslip.com">Advice Slip API</a> - random quote generator.
-
-
-
-## Acknowledgments
-
-A big thank you to anyone providing feedback on my <a href="https://www.frontendmentor.io/solutions/advice-generator-app-wYjTeAeAf#comment-621bb509145c6a78f0999ec4">solution</a>. It definitely helps to find new ways to code and find easier solutions! 
