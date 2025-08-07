@@ -1,4 +1,4 @@
-<img src="https://github.com/kiprotichgidii/advicemate/main/images/project-preview.png?raw=true"></img>
+<img src="https://github.com/kiprotichgidii/advicemate/blob/main/images/project-preview.png?raw=true"></img>
 
 
 <h1 align="center">Advice Generator Web App</h1>
@@ -399,8 +399,7 @@ Your AdviceMate web application is now successfully deployed on your Linux Mint 
 For production use, consider implementing HTTPS, setting up monitoring, and creating automated backup procedures.
 
 ---
-
-**Deployment Date**: August 7, 2025  
+  
 **Server**: Linux Mint  
 **Web Server**: Nginx  
 **Application**: AdviceMate (Frontend SPA)  
