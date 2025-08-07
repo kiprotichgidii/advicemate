@@ -25,22 +25,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 - Mobile-first workflow
 - Advice Slip API - random quote generator
 
-## What I learned
-A really fun project to practice API with JavaScript. The only issue is that sometimes after requesting new quote, it generates the same so the visitor wouldn't notice it and think it didn't work. Probablt there are ways to avoid it but I decided not to spend much on this right now. 
-
-P.S. 
-
-Seems like the issue was cache, not repetitive quotes which is fixed now!
-
-
-## Useful resources
-
-1. <a href="https://www.figma.com/">Figma</a> - Paste your design image to check the size of containers, width, etc.
-2. <a href="https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi">Perfect Pixel</a> - Awesome Chrome extension that helps you to match the pixels of the provided design.
-3. <a href="https://api.adviceslip.com">Advice Slip API</a> - random quote generator.
-
-
-## AdviceMate Web App Deployment Guide
+## Deploying AdviceMate
 
 ### Overview
 
@@ -392,13 +377,19 @@ After deployment, your file structure should look like:
 4. **HTTPS**: Recommended for production deployments
 5. **Regular Updates**: Keep system and web server updated
 
-### Conclusion
+## What I learned
+A really fun project to practice API with JavaScript. The only issue is that sometimes after requesting new quote, it generates the same so the visitor wouldn't notice it and think it didn't work. Probablt there are ways to avoid it but I decided not to spend much on this right now. 
 
-Your AdviceMate web application is now successfully deployed on your Linux Mint server. The application should be accessible via your server's IP address and will fetch random advice from the Advice Slip API when users interact with the dice icon.
+P.S. 
 
-For production use, consider implementing HTTPS, setting up monitoring, and creating automated backup procedures.
+Seems like the issue was cache, not repetitive quotes which is fixed now!
 
----
+
+## Useful resources
+
+1. <a href="https://www.figma.com/">Figma</a> - Paste your design image to check the size of containers, width, etc.
+2. <a href="https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi">Perfect Pixel</a> - Awesome Chrome extension that helps you to match the pixels of the provided design.
+3. <a href="https://api.adviceslip.com">Advice Slip API</a> - random quote generator.
   
 **Server**: Linux Mint  
 **Web Server**: Nginx  
