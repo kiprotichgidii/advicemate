@@ -45,7 +45,11 @@ jobs:
         working-directory: ./devops/ansible/
         run: |
           ansible all -m ping
-      - name: Deploy AdviceMate via Ansible
+      - name: Run Ansible Playbooks
         working-directory: ./devops/ansible/
         run: |
-          ansible-playbook deploy-app.yaml
+          ansible-playbook install-nginx.yaml
+      #- name: Deploy AdviceMate via Ansible
+      #  working-directory: ./devops/ansible/
+      #  run: |
+      #    ansible-playbook deploy-app.yaml
