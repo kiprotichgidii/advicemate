@@ -1,6 +1,7 @@
 ---
 - name: Deploy AdviceMate Web Application
   hosts: all
+  remote_user: root
   become: yes
   tasks:
     - name: Update and Upgrade System
