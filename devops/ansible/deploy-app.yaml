@@ -33,6 +33,7 @@
         - "{{ playbook_dir }}/../../app.js"
         - "{{ playbook_dir }}/../../index.html"
         - "{{ playbook_dir }}/../../styles.css"
+        - "{{ playbook_dir }}/../../images"
 
     - name: Set file ownership and permissions
       file:
@@ -61,7 +62,7 @@
       with_items:
         - /etc/nginx/sites-enabled/default
         - /etc/nginx/sites-available/default
-        
+
   handlers:
     - name: restart nginx
       systemd:
