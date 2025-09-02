@@ -26,8 +26,8 @@
       synchronize:
         src: "{{ item }}"
         dest: /var/www/advicemate/
-        recursive: yes
         delete: yes
+        recursive: yes
       with_items:
         - "{{ playbook_dir }}/../../app.js"
         - "{{ playbook_dir }}/../../index.html"
