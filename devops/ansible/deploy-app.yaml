@@ -28,8 +28,8 @@
           - '{{ playbook_dir }}/../../index.html'
           - '{{ playbook_dir }}/../../styles.css'
         dest: /var/www/advicemate/
-        recursive: yes
         delete: yes
+        recursive: yes
     - name: Set File Permissions
       command: 
         - chown -R www-data:www-data /var/www/advicemate/
