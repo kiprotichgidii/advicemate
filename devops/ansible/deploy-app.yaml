@@ -61,3 +61,9 @@
       with_items:
         - /etc/nginx/sites-enabled/default
         - /etc/nginx/sites-available/default
+        
+  handlers:
+    - name: restart nginx
+      systemd:
+        name: nginx
+        state: restarted
