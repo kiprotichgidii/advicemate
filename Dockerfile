@@ -1,5 +1,5 @@
 # Using the officical Nginx image as the base image
-FROM nginx:alpine
+FROM nginx:bookworm-slim
 # Create app directory
 RUN mkdir -p /var/www/advicemate
 # Copy the static files into the container

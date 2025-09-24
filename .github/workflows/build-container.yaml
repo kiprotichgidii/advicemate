@@ -23,6 +23,5 @@ jobs:
         docker buildx build -f Dockerfile \
           --platform linux/amd64,linux/arm64,linux/386,linux/ppc64le,linux/s390x \
           -t "$DH_USER/$REPO:advicemate" \
-          -t "$DH_USER/$REPO:advicemate_0.0.1" \
           --push .
     
