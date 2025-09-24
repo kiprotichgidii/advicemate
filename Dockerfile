@@ -5,7 +5,7 @@ RUN mkdir -p /var/www/advicemate
 # Copy the static files into the container
 COPY index.html /var/www/advicemate/
 COPY styles.css /var/www/advicemate/
-COPY images/ /var/www/advicemat/images/
+COPY images/ /var/www/advicemate/images/
 COPY app.js /var/www/advicemate/
 # Copy custom nginx configuration file to the container
 COPY ./conf/nginx.conf /etc/nginx/conf.d/default.conf
