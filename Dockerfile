@@ -9,7 +9,7 @@ COPY images/ /var/www/advicemate/images/
 COPY app.js /var/www/advicemate/
 # Copy custom nginx configuration file to the container
 COPY ./conf/nginx.conf /etc/nginx/conf.d/default.conf
-# Expose port 5000
-EXPOSE 5000
+# Expose port 80
+EXPOSE 80
 # Start Nginx server
 CMD ["nginx", "-g", "daemon off;"]
