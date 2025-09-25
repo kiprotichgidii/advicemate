@@ -49,7 +49,7 @@ jobs:
         working-directory: ./devops/ansible/
         run: |
           ansible-playbook install-nginx.yaml
-      #- name: Deploy AdviceMate via Ansible
-      #  working-directory: ./devops/ansible/
-      #  run: |
-      #    ansible-playbook deploy-app.yaml
+      - name: Deploy AdviceMate via Ansible
+        working-directory: ./devops/ansible/
+        run: |
+          ansible-playbook deploy-app.yaml
